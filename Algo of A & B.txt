@@ -1,0 +1,34 @@
+— Algorithm 1
+Start
+Define the function EmpCalc().
+Read employee Name.
+Read employee Age.
+Read employee Salary.
+Calculate HRA = Salary × 35 / 100.
+Calculate PF = Salary × 25 / 100.
+Calculate Net Salary = Salary + HRA + PF.
+Check the Net Salary:
+If Net Salary is between 30,000 and 1,00,000, display Senior Manager.
+Else if Net Salary is between 20,000 and below 30,000, display Manager.
+Otherwise, display Front level job.
+Return Name, Age and Net Salary.
+Display the employee's Name, Age and Net Salary.
+Stop
+
+Algorithm 2
+Start
+Create a tuple my_tuple containing 2, 4, 6, 5, 7, 9.
+Display the tuple.
+Display the first element using index 0.
+Display the last element using index -1.
+Find and display the length of the tuple.
+Find and display the count of 6.
+Find and display the index of 5.
+Find and display the maximum value.
+Find and display the minimum value.
+Calculate and display the sum of all elements.
+Check whether 9 is present in the tuple.
+Convert the tuple into a list and display it.
+Convert the list back into a tuple.
+Display the converted tuple.
+Stop

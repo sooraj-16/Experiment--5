@@ -1,0 +1,19 @@
+def EmpCalc():
+    Name=input("Enter name:")
+    Age=int(input("Enter age :"))
+    sal=float(input("Enter Salary:"))
+    HRA=(sal*35)/100
+    PF=(sal*25)/100
+    Net_sal=sal+HRA+PF
+    
+    if (Net_sal>=30000)and (Net_sal<=100000):
+        print("Senior Manager")
+    elif (Net_sal>=20000)and (Net_sal<30000):
+        print("Manager")
+    else:
+        print("Front level job")
+    return Name,Age,Net_sal
+Name,Age,Net_sal=EmpCalc()
+print("Employee Name:",Name) 
+print("Employee Age:",Age) 
+print("Employee Net Salary:",Net_sal) 
